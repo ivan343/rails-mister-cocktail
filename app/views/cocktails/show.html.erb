@@ -1,7 +1,18 @@
+
+ <div class="d-flex flex-column align-items-center">
+</div>
+
+<div class="card-product mt-5">
+  <%= cl_image_tag @cocktail.photo.key, height: 300, width: 400, crop: :fill %>
+
+
+  <div class="card-product-infos">
 <% @cocktail.doses.each do |dose| %>
   <p><%= dose.description %></p>
 <% end %>
  <%= link_to "Description", new_cocktail_dose_path(@cocktail), class: 'description' %>
- <%= link_to "Go back to the cocktails", cocktails_path, class: 'back' %>
+  <%= link_to "Delete", cocktail_path(@cocktail), method: :delete, class: "Remove" %>
+  </div>
+</div>
+  <%= link_to "Go back to the cocktails", cocktails_path, class: 'back' %>
 
-<%= cl_image_tag @cocktail.photo.key, height: 300, width: 400, crop: :fill %>

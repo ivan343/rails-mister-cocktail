@@ -11,6 +11,57 @@ body {
 
 }
 
+.delete {
+  color:white;
+
+}
+
+.navbar-lewagon {
+  justify-content: space-between;
+  background: white;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+
+.card-product {
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+}
+
+.card-product img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+.card-product h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-product p {
+  font-size: 16px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-product .card-product-infos {
+  padding: 16px;
+}
 
 h1 {
   color: white;
@@ -19,7 +70,7 @@ h1 {
 }
 
 p{
-  color: white;
+  color: black;
   text-align: center;
   padding-top: 20px;
   display: block;
@@ -34,7 +85,7 @@ p{
 }
 
 label {
-  color: white;
+  color: black;
 }
 
 .btn {
@@ -44,30 +95,44 @@ label {
 .Menu {
   text-align: center;
   display: block;
-  color: black;
-  padding-top: 20px;
+  color: white;
   font-size: 25px;
 }
 
-.cocktail {
-   text-align: center;
+.Add {
+  text-align: center;
   display: block;
   color: white;
-  padding-top: 20px;
-  font-size: 25px;
+  padding-top: 10px;
+  font-size: 26px;
+}
+
+.logo{
+  height: 36px;
+
+}
+.Remove {
+   display: block;
+  color: black;
+  padding-top: 6px;
+  font-size: 16px;
 }
 
 .description, .back {
-   color: white;
-  text-align: center;
+   color: black;
   padding-top: 20px;
   display: block;
+}
+
+.back {
+  text-align: center;
 }
 
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
+  padding-top: 56px;
 }
 
 // Smallest device
@@ -107,7 +172,7 @@ label {
 
 .card-category {
   background-size: cover;
-  background-position: center;
+  // background-position: center;
   height: 180px;
   display: flex;
   justify-content: center;
