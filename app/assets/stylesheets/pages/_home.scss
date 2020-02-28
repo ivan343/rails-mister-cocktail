@@ -1,1 +1,56 @@
 // Specific CSS for your home-page
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://djdo2py1q6zlg.cloudfront.net/magazine/wp-content/uploads/2017/11/cocktail_winter.jpg');
+  height: 50vh;
+
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+p{
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  display: block;
+}
+
+ input{
+  color: black !important;
+}
+
+.string_required {
+  text-align: center;
+}
+
+label {
+  color: white;
+}
+
+.btn {
+  color:white !important;
+}
+
+.Menu, .cocktail {
+  text-align: center;
+  display: block;
+  color: white;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+.description, .back {
+   color: white;
+  text-align: center;
+  padding-top: 20px;
+  display: block;
+}
